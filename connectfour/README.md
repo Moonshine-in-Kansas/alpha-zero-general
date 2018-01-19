@@ -2,7 +2,7 @@
 
 An implementation of Connect Four using tensorflow.  Neural network architecture for a 7x7 board was copy-pasted from the game of Othello, so possibly it can be simplified. 
 
-To start training a model for TicTacToe:
+To start training a model for Connect Four:
 ```bash
 python main4.py
 ```
