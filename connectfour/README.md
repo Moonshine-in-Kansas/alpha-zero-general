@@ -7,12 +7,14 @@ To start training a model for Connect Four:
 python main4.py
 ```
 To start a tournament of 100 episodes with the model-based player against a random player:
-``` python pit4.py ```
-You can play againt the model by switching to HumanPlayer in ```pit4.py```
+```bash 
+python pit4.py ```
+You can play againt the model by switching to HumanPlayer in ```
+python pit4.py```
 
 ### Experiments
 I trained a tensor flow model for about 10 iterations, 100 episodes, 10 epochs per iteration and 100 MCTS simulations per turn. This took two days on a Ryzen 1700X processor. 
-The pretrained model (tensorflow) can be found in ```pretrained_models/tictactoe/keras/```. You can play a game against it using ```pit4.py```. 
+The pretrained model (tensorflow) can be found in ```pretrained_models/connectfour/tensorflow/```. You can play a game against it using ```pit4.py```. 
 
 ### Contributors and Credits
 * [Gerald Hoehn](https://github.com/Moonshine-in-Kansas)
